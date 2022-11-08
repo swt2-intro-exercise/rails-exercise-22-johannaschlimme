@@ -13,3 +13,4 @@ describe "Author model", type: :model do
         expect(author.name()).to eq('Alan Turing')
     end
 end
+
