@@ -23,5 +23,5 @@ describe "New author page", type: :feature do
 
     authors = Author.where(:first_name => 'Alan', :last_name => 'Turing', :homepage => 'http://wikipedia.org/Alan_Turing')
     authors.any?
-end
+  end
 end
